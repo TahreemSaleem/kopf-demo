@@ -1,0 +1,6 @@
+apiVersion: custom.config/v1alpha1
+kind: Nginx
+metadata:
+ name: config-nginx
+spec:
+ worker_processes: 2

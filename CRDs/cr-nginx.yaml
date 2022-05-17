@@ -1,0 +1,8 @@
+apiVersion: custom.deployment/v1alpha1
+kind: Nginx
+metadata:
+ name: c1-nginx
+spec:
+ image: 1.14.2
+ port: 80
+ replicas: 2
